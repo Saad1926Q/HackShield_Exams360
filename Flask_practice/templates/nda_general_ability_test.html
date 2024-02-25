@@ -1,0 +1,194 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <style>
+
+
+        .starter-template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+    </style>
+
+{% endblock head %}
+
+
+{% block body %}
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="starter-template">
+            <h1>General Ability Test Mastery for NDA</h1>
+            <p class="lead">Excel in the General Ability Test to succeed in your NDA exams.</p>
+        </div>
+
+        <section id="syllabus">
+            <h2>Syllabus</h2>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th>Section</th>
+                    <th>Content</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>English</td>
+                    <td>Grammar, Vocabulary, Comprehension, and Writing Skills.</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>Mechanics, Optics, Electricity, Magnetism, Thermodynamics, and Nuclear Physics.</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>Physical Chemistry, Inorganic Chemistry, and Organic Chemistry.</td>
+                </tr>
+                <tr>
+                    <td>History</td>
+                    <td>Indian History, National Movement, and Modern Indian History.</td>
+                </tr>
+                <tr>
+                    <td>Geography</td>
+                    <td>Physical, Social, and Economic Geography of India.</td>
+                </tr>
+                <tr>
+                    <td>General Science</td>
+                    <td>Physics, Chemistry, Biology, and Environmental Science.</td>
+                </tr>
+                <tr>
+                    <td>Current Affairs</td>
+                    <td>Recent events in Politics, Sports, Science, Technology, and International Affairs.</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <!-- English Dropdown -->
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonEnglish"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                English
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonEnglish">
+                <li><a class="dropdown-item" href="https://www.vedantu.com/exams/nda-general-ability-test-syllabus" target="_blank">Syllabus</a></li>
+                <li><a class="dropdown-item" href="https://byjusexamprep.com/nda-exam/physics-questions-for-nda" target="_blank">Material</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLPd2uagPeaaO6ll9GgcM8mz22b275Ygtw" target="_blank">Video Lectures</a></li>
+            </ul>
+        </div>
+
+        <!-- Physics Dropdown -->
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonPhysics"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Physics
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonPhysics">
+                <li><a class="dropdown-item" href="https://www.vedantu.com/exams/nda-general-ability-test-syllabus" target="_blank">Syllabus</a></li>
+                <li><a class="dropdown-item" href="https://ndabooks.in/nda-physics-mcqs-pdf-download/" target="_blank">Material</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLPd2uagPeaaNBkpRVGG2Bq8rSknPLzM99" target="_blank">Video Lectures</a></li>
+
+            </ul>
+        </div>
+
+        <!-- Chemistry Dropdown -->
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonChemistry"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Chemistry
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonChemistry">
+                <li><a class="dropdown-item" href="https://www.vedantu.com/exams/nda-general-ability-test-syllabus" target="_blank">Syllabus</a></li>
+                <li><a class="dropdown-item" href="https://byjusexamprep.com/nda-exam/chemistry-questions-for-nda" target="_blank">Material</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLPd2uagPeaaOVwNooBMtpS-T_c1sjIe8f" target="_blank">Video Lectures</a></li>
+            </ul>
+        </div>
+
+        <!-- History Dropdown -->
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonHistory"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                History
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonHistory">
+                <li><a class="dropdown-item" href="https://www.vedantu.com/exams/nda-general-ability-test-syllabus" target="_blank">Syllabus</a></li>
+                <li><a class="dropdown-item" href="https://ndabooks.in/nda-history-notes-pdf-download/" target="_blank">Material</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLhrq-fv7kVgdnPXcZSkmhrBH5DXsdr4E4" target="_blank">Video Lectures</a></li>
+            </ul>
+        </div>
+
+        <!-- Geography Dropdown -->
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonGeography"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Geography
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonGeography">
+                <li><a class="dropdown-item" href="https://www.vedantu.com/exams/nda-general-ability-test-syllabus" target="_blank">Syllabus</a></li>
+                <li><a class="dropdown-item" href="https://ndabooks.in/nda-geography-notes-pdf-download/" target="_blank">Material</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLhrq-fv7kVgfVltduBy9lM1fPHn3Jcgpb" target="_blank">Video Lectures</a></li>
+            </ul>
+        </div>
+
+        <!-- General Science Dropdown -->
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonScience"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                General Science
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonScience">
+                <li><a class="dropdown-item" href="https://www.vedantu.com/exams/nda-general-ability-test-syllabus" target="_blank">Syllabus</a></li>
+                <li><a class="dropdown-item" href="https://www.examrace.com/Study-Material/General-Studies/" target="_blank">Material</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLU6aMsIxfhG1giIkNn1rPgtZ29jKwQfhO" target="_blank">Video Lectures</a></li>
+            </ul>
+        </div>
+
+        <!-- Current Affairs Dropdown -->
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonCurrentAffairs"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Current Affairs
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonCurrentAffairs">
+                <li><a class="dropdown-item" href="https://www.vedantu.com/exams/nda-general-ability-test-syllabus" target="_blank">Syllabus</a></li>
+                <li><a class="dropdown-item" href="https://www.ssbcrack.com/2022/08/current-affairs-questions-for-nda-current-affairs-notes.html" target="_blank">Material</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/live/zXlWryvXq-I?si=WKn51yvrv0p0ASIX" target="_blank">Video Lectures-I</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/live/XpI8-pV81mk?si=7CNI_NAPnZbWx7yY" target="_blank">Video Lectures-II</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PL78AwVE7MEBkHwV-gLlYmlKuNP9U0JPso" target="_blank">Video Lectures-III</a></li>
+            </ul>
+        </div>
+
+        <section id="material">
+
+            <h2>Preparation Resources</h2>
+
+            <a class="btn btn-primary" href="https://www.4ono.com/nda-gat-test/" target="_blank">Practice Problems</a>
+            <a class="btn btn-primary" href="https://www.prep.youth4work.com/Defence/NDA-Test/General-Ability-_Test_-Test" target="_blank">Tests</a>
+            <a class="btn btn-primary" href="https://www.centuriondefenceacademy.com/blog/nda/how-to-prepare-for-the-nda-general-ability-test/" target="_blank">Tips and Strategies</a>
+        </section>
+
+        <section id="notes">
+            <h2>Notes</h2>
+            <p>Access detailed study notes to enhance your understanding of NDA General Ability Test topics. Strengthen
+                your language and general knowledge skills with organized study materials.</p>
+
+            <p>Unlock a treasure trove of knowledge to elevate your preparation for the NDA General Ability Test. Delve into meticulously crafted study notes designed to sharpen your language proficiency and deepen your grasp of diverse subjects. Our comprehensive materials cover a spectrum of topics, nurturing not only your linguistic prowess but also fostering a nuanced understanding of general knowledge domains. Embrace a learning journey that goes beyond textbooks, offering insights that empower you to excel in the NDA General Ability Test with confidence and finesse.</p>
+            <!-- Include links to study notes here -->
+        </section>
+
+        <section id="practice-tests">
+            <h2>Practice Tests</h2>
+            <p>Boost your preparation with specially designed practice tests for NDA General Ability Test. Evaluate your
+                performance, identify areas of improvement, and excel in the actual exams.</p>
+            <!-- Include links to practice tests here -->
+        </section>
+
+    </div><!-- /.container -->
+
+{% endblock body %}

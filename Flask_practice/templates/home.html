@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<style>
+    .header-section {
+        background-image: url("{{url_for('static', filename='banner_hands.jpeg')}}");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #ffffff
+        text-align: center;
+        padding: 3rem; /* Adjust padding as needed */
+    }
+</style>
+
+{% endblock head %}
+
+
+{% block nav %}
+<li class="nav-item">
+    <a class="nav-link" href="#About-us">About Us</a>
+</li>
+{% endblock nav %}
+
+{% block body %}
+
+
+    <div class="position-relative overflow-hidden  text-center header-section" >
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal" style="color: #dc5284;"><strong>Exams360</strong></h1>
+            <p class="lead font-weight-normal" style="color: #dc5284 ;"><strong>Empowering Minds, Illuminating Futures: Your Path to Knowledge Begins Here!</strong></p>
+            <a class="btn btn-outline-secondary" href="{{url_for('jee_page')}}"><strong>IIT JEE</strong></a>
+            <a class="btn btn-outline-secondary" href="{{url_for('neet_page') }}"><strong>NEET</strong></a>
+            <a class="btn btn-outline-secondary" href="{{url_for('nda_page') }}"><strong>NDA</strong></a>
+        </div>
+        <div class="product-device box-shadow d-none d-md-block"></div>
+        <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+
+
+
+    <div class="jumbotron">
+    <div class="container">
+        <h1 class="display-4 " id="About-us"><strong>
+            About Us
+        </strong></h1>
+        <p class="lead">Empowering students with quality education resources for NDA, NEET, and IIT JEE.</p>
+        <!-- Add any call-to-action buttons or links here -->
+    </div>
+</div>
+
+
+<section class="container my-5">
+    <h2>Our Mission</h2>
+    <p class="mb-3">Our dedicated team at Exams360 strives to create an educational system that transcends the traditional boundaries for students preparing for various undergraduate exams, for their entry into the most prestigious institutes of the country.
+        We are all known to the fact that every educational material is available for free on the vast internet, ranging from video lectures for a particular topic to notes and previous year question papers everything is available.
+        The problem being that it is so much scattered that a student finds it difficult as to what resources they should use, the resources that he/she is using do they match the quality of questions that are being asked in the exams they are targeting, because of this they waste a ton of their precious time many a times months in hopping from one resource to another thus getting behind students who pay thousands or sometimes lakhs of rupees for a physical or a virtual coaching centre.
+        Our Mission is to help the students who come from the financially weaker section of the society aspiring to study in reputed institutes of India, transfer to them the knowledge from the dark trenches of the internet so that they are not left behind in any shape or form</p>
+    <h2>Why Exams 360?</h2>
+    <p class="mb-3">Creating Exams360 was born out of a collective realization within our team, "HackShield," that students preparing for exams like NEET, JEE, and NDA often face significant challenges without proper guidance.
+        While online resources abound, the absence of a centralized platform tailored to the specific needs of aspirants led us to embark on this journey.
+        We recognized the critical need for a comprehensive platform that not only provides study materials but also offers structured guidance and support.
+        Our goal is to bridge the gap for those navigating the complex landscape of competitive exams.
+        Exams360 is not just an online resource hub; it's a dynamic learning ecosystem designed to empower students, offering a holistic approach to exam preparation.
+        We envision a future where Exams 360 expands its offerings to include a diverse range of exams, becoming a go-to destination for aspirants across various fields, ensuring that no student is left without the guidance they need to succeed.</p>
+    <h2>Future Prospects</h2>
+    <p class="mb-3">Our aim is to provide the best study materials and the best video lectures that are essential for cracking every exam at the undergrad level, to provide one to one mentorship for students who are struggling to focus and maintain a healthy routine or who have deviated away from their competitive journey and are wishing for guidance from seniors who once dealt with similar problems.
+        We aim to make this a platform that stops you from wandering into the dark jungles on the internet and brings the pearls at your footstep, so that your precious time is utilised in mastering the subject and not mastering the channels to reach out to the subject</p>
+    <h2>Meet the Team</h2>
+    <!-- Add information about your team members -->
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="{{ url_for('static', filename='owais2.jpeg') }}" class="card-img-top" alt="Team Member 1">
+                <div class="card-body">
+                    <h5 class="card-title">Mohammad Owais</h5>
+                    <p class="card-text">Content Head(Leader)</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="{{ url_for('static', filename='aaliyah.jpeg') }}" class="card-img-top" alt="Team Member 2">
+                <div class="card-body">
+                    <h5 class="card-title">Aaliyah Batool Hussain</h5>
+                    <p class="card-text">Design Lead</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="{{ url_for('static', filename='saad.jpeg') }}" class="card-img-top" alt="Team Member 3">
+                <div class="card-body">
+                    <h5 class="card-title">Saad Ahmed Siddiqui</h5>
+                    <p class="card-text">Backend Developer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

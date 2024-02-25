@@ -1,0 +1,447 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+    <style>
+        .starter-template {
+            padding: 3rem 1.5rem;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+    </style>
+{% endblock head %}
+
+{% block body %}
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="starter-template">
+            <h1>Physics Excellence for JEE</h1>
+            <p class="lead">Master the concepts of Physics to excel in your JEE exams.</p>
+        </div>
+
+        <section id="syllabus">
+            <h2>Syllabus</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mechanics</td>
+                        <td>Kinematics, Laws of Motion, Work, Energy, Power, System of Particles, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>Thermodynamics</td>
+                        <td>Heat, Laws of Thermodynamics, Thermal Expansion, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>Electrostatics and Magnetism</td>
+                        <td>Electric Charges, Electric Field, Magnetic Field, Magnetic Effects of Current, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>Optics</td>
+                        <td>Ray Optics, Wave Optics, Optical Instruments, Interference, Diffraction, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>Modern Physics</td>
+                        <td>Atomic Structure, Nuclear Physics, Dual Nature of Matter and Radiation, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>Electromagnetic Waves and Communication Systems</td>
+                        <td>Electromagnetic Waves, Communication Systems, etc.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Units and Dimensions
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pVWfgRNgKx3xFhq6OYPcfv">Video lectures</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023a181e4b8c73321005c">Previous Years Questions</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Motion in One Dimension
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5qJbEmuJy30qstS8fDQYXFQ" target="_blank">Video lectures</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023a862a83b750153b970" target="_blank">Previous Years Questions</a></li>
+                <li><a class="dropdown-item" href="https://drive.google.com/file/d/1qXgVXXmzz2coi5fGRlT_24KQ1ySyHf0W/view" target="_blank">Notes</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton3"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Motion in a Plane
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5rVbTWIWmdw7ZLgrpL5HUI2" target="_blank">Video lectures</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023aeab028caf34f8696e" target="_blank">Previous Years Questions</a></li>
+                <li><a class="dropdown-item" href="https://drive.google.com/file/d/1ge2IN0LBxberW74FypUYUWvGVNZ9H2Yz/view"  target="_blank">Notes</a></li>
+            </ul>
+        </div>
+
+                <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton4"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Laws of Motion
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5o87acfiquV9CMzi-rfIdQk" target="_blank">Video lectures for NLM</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oAa5_844mrhYq65crmya3l" target="_blank">Video lectures for Friction</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023b36f5a53c6a5d4ce42" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://drive.google.com/file/d/1ge2IN0LBxberW74FypUYUWvGVNZ9H2Yz/view" target="_blank">Notes</a></li>
+            </ul>
+        </div>
+
+                <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton5"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Work, Energy Power & Circular Motion
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5qOhevtD5Ikd3R6gy6wsMaW" target="_blank">Video lectures for WPE</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5ojdEY1cWhAKylxiAhv60ec" target="_blank">Video lectures for Circular Motion</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023bb7fac1bbfb6fab777" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://drive.google.com/file/d/14hugN1Vcn6wXgL7vVLqUsqTf7ZnT2tdH/view" target="_blank">Notes</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton70"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Center of Mass Momentum and Collision
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pNzoB-e4ugTz96dGpspdDI" target="_blank">Video lecture Playlist I</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pNzoB-e4ugTz96dGpspdDI" target="_blank">Video lecture Playlist II</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023c2c988039d0c2af460" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://drive.google.com/file/d/15EofT3ahmuY7aYTCCaDt97iFMiLJX75i/view" target="_blank">Notes</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton7"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Rotational Motion
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5rPQQlxpC_gOdBtdZ-p1zcO" target="_blank">Video lectures</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023b36f5a53c6a5d4ce42" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://drive.google.com/file/d/15EofT3ahmuY7aYTCCaDt97iFMiLJX75i/view" target="_blank">Notes</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton8"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Gravitation
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5p36rWJbRL8xJrncratOW3r" target="_blank">Video lecture Playlist I</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pvfZrqeGfjLO5V33vfz0FG" target="_blank">Video lecture Playlist II</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023b36f5a53c6a5d4ce42" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://drive.google.com/file/d/15Fmk92pYG5uLi8PdljBED-2P9xciIyUw/view" target="_blank">Notes</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="heatDropdown" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                Heat and Thermodynamics
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="heatDropdown">
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oPYhq8fJK3M8t5Nx9NMdkd" target="_blank">Video
+                    lecture Playlist I</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5q_CZGbRRSm4j2aZ_XvI7al" target="_blank">Video
+                    lecture Playlist II</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oHr3ad8oorBy2CP-B0ru4Z" target="_blank">Video
+                    lecture Playlist III</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oiIFdST1_g0B9AQYC07xy9" target="_blank">Video
+                    lecture Playlist IV</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pojfQZjNHI6_Tf4icfXFwo" target="_blank">Video
+                    lecture Playlist V</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023e0ffc8649daddda513"
+                       target="_blank">Previous Year Questions I</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023e7441e5bacfafa72af"
+                       target="_blank">Previous Year Questions II</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023eeffdeb1347a4d3c40"
+                       target="_blank">Previous Year Questions III</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.selfstudys.com/books/jee-physics/english/notes/10-kinetic-theory-of-gases/1-kinetic-theory-of-gases-theory/82789"
+                       target="_blank">Notes I</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.selfstudys.com/books/jee-physics/english/notes/11-thermal-expension-thermometry-and-calometry/1-thermal-expansion-theory/82791"
+                       target="_blank">Notes II</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.selfstudys.com/books/jee-physics/english/notes/12-thermodynamics/1-thermodynamic-process-theory/82793"
+                       target="_blank">Notes III</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.selfstudys.com/books/jee-physics/english/notes/13-transmission-of-heat/1-transmission-of-heat-theory/82805"
+                       target="_blank">Notes IV</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="shmWavesDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                SHM & Waves
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="shmWavesDropdown">
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5qDdR5Tf1M3iwkvBBFubwq_" target="_blank">Video
+                    lecture Playlist I (SHM)</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5rqEGbfx8n5Bhd1q9cC-aql" target="_blank">Video
+                    lecture Playlist- Waves I</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5rNwScUI9XMWgNIG-D8Nssr" target="_blank">Video
+                    lecture Playlist- Waves II</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pgg1RzhBJCKmqhWnWTtCzu" target="_blank">Video
+                    lecture Playlist- Waves III</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5rRO-1gICUhd76J0TbkKPAw" target="_blank">Video
+                    lecture Playlist- Waves IV</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023f36324da677f8a7444"
+                       target="_blank">Previous Year Questions - I</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023fac86e221a92182c71"
+                       target="_blank">Previous Year Questions - II</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.selfstudys.com/books/jee-physics/english/notes/14-s-h-m/1-shm-theory/82807"
+                       target="_blank">Notes I</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.selfstudys.com/books/jee-physics/english/notes/15-wave-motion/1-wave-motion-theory/82809"
+                       target="_blank">Notes II</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="fluidsDropdown"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                Fluids Static & Dynamics
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="fluidsDropdown">
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pZ6_3X9KICjOGkpWeaKxZ5" target="_blank">Video
+                    lecture Playlist I</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pSKXBU4w43GCZQi0FfM2u9" target="_blank">Video
+                    lecture Playlist II</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oIJ3dfMoWnQ5FRIh_3JfPG" target="_blank">Video
+                    lecture Playlist III</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5r08erkeAITDIGrjNbNbBFB" target="_blank">Video
+                    lecture Playlist IV</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oV8wwEEI7TuP4OcRSmndy_" target="_blank">Video
+                    lecture Playlist V</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023d52e07c52831d5e2f3"
+                       target="_blank">Previous Year Questions - I</a></li>
+                <li><a class="dropdown-item" href="https://web.getmarks.app/cpyqb/chapter/616023db0dd81950d11cd0c2"
+                       target="_blank">Previous Year Questions - II</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.selfstudys.com/books/jee-physics/english/notes/19-fluid-mechnics/1-elasticity-theory/82821"
+                       target="_blank">Notes I</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.selfstudys.com/books/jee-physics/english/notes/19-fluid-mechnics/2-surface-tension-theory/82820"
+                       target="_blank">Notes II</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.selfstudys.com/books/jee-physics/english/notes/19-fluid-mechnics/3-fluid-mechanics-theory/82819"
+                       target="_blank">Notes III</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton6"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Electrostatics
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5q1zluvt1QzvSr8ZhVFSxXC" target="_blank">Video
+                    lecture Playlist I</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oFZy9pRC0Js6AR4CQwd0TA" target="_blank">Video
+                    lecture Playlist II</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5p1dAoyw-cq5Sho6jKzRO68" target="_blank">Video
+                    lecture Playlist III</a></li>
+                <li><a class="dropdown-item"
+                       href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pAhz46m8KxKQGyHKU8Xq24" target="_blank">Video
+                    lecture Playlist IV</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton11"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Current Electricity
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://byjus.com/jee/important-current-and-electricity-formulas-for-jee/" target="_blank">Study Material</a></li>
+                <li><a class="dropdown-item" href="https://questions.examside.com/past-years/jee/jee-main/physics/current-electricity" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5rxZTg_jSr5okE17nVjovdY" target="_blank">Video Lectures-I</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pNp6mKyhYm_dyKhQa89d-U" target="_blank">Video Lectures-II</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oBN4Fm-fdfmGUJfGxSFCz6" target="_blank">Video Lectures-III</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton12"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Magnetic Effects and Magnetism
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://www.vedantu.com/jee-main/physics-magnetic-effects-of-current-and-magnetism-revision-notes" target="_blank">Study Material</a></li>
+                <li><a class="dropdown-item" href="https://byjus.com/jee/jee-main-magnetism-previous-year-questions-with-solutions/" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5otvXTVJUzf4leXA4drAAVP" target="_blank">Video Lectures-I</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5riuB-SQjeHsZ3nvky5rzFq" target="_blank">Video Lectures-II</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5ophSnSLgD7GoYz6Zoyieka" target="_blank">Video Lectures-III</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oa3Xt30jyJf8TgjRdE_Ffo" target="_blank">Video Lectures-IV</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton13"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Electromagnetic Induction
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://www.askiitians.com/iit-jee-electromagnetic-induction/" target="_blank">Study Material</a></li>
+                <li><a class="dropdown-item" href="https://byjus.com/jee/jee-main-electromagnetic-induction-previous-year-questions-with-solutions/" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oX_utM6U1WELiA4lAhmd07" target="_blank">Video Lectures-I</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pKJ6B0q_hxAzXgzSjpaqum" target="_blank">Video Lectures-II</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton14"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Alternating Current
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://byjus.com/jee/alternating-current-for-iit-jee/" target="_blank">Study Material</a></li>
+                <li><a class="dropdown-item" href="https://questions.examside.com/past-years/jee/jee-main/physics/alternating-current" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5puf3ODDtJeoKVcw_nn4sHe" target="_blank">Video Lectures</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton15"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Electromagnetic Waves
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://www.vedantu.com/jee-main/physics-electromagnetic-waves-revision-notes" target="_blank">Study Material</a></li>
+                <li><a class="dropdown-item" href="https://byjus.com/jee/jee-main-electromagnetic-waves-induction-previous-year-questions-with-solutions/" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5ro6oNQNgb4lEiYUQf6O5ix" target="_blank">Video Lectures</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton16"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Ray Optics
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://www.askiitians.com/iit-jee-ray-optics/" target="_blank">Study Material</a></li>
+                <li><a class="dropdown-item" href="https://byjus.com/jee/jee-main-ray-optics-previous-year-questions-with-solutions/" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pDolBtG83KK5GNiFP2Wdwo" target="_blank">Video Lectures-I</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5o58QuOJsZ6XNazPba5y9Vk" target="_blank">Video Lectures-II</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oARIu2zma1w7BbjekSXULp" target="_blank">Video Lectures-III</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton17"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Wave Optics
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://byjus.com/jee/wave-optics/" target="_blank">Study Material</a></li>
+                <li><a class="dropdown-item" href="https://byjus.com/jee/jee-main-wave-optics-previous-year-questions-with-solutions/" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5pnPMEJ_pCBTHmYZkFgzZpZ" target="_blank">Video Lectures-I</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oSA1adbrafXl5G-_ZEyUg8" target="_blank">Video Lectures-II</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton18"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Modern Physics
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://www.iitianacademy.com/iit-jee-main-physics-study-materials-chapter-wise/" target="_blank">Study Material</a></li>
+                <li><a class="dropdown-item" href="https://questions.examside.com/past-years/jee/jee-main/physics" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5owtqFE7pm3yMyokgXT2iul" target="_blank">Video Lectures-I</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5rdhqXnbkIBjAFk_gTRc2Bh" target="_blank">Video Lectures-II</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5rOxjiDU81nW07oYApW60IQ" target="_blank">Video Lectures-III</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5oDZNTKTHdDXk2yeDd5USgr" target="_blank">Video Lectures-IV</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown mb-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton19"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                Semiconductor
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                <li><a class="dropdown-item" href="https://collegedunia.com/news/e-301-jee-main-study-notes-on-semiconductors" target="_blank">Study Material</a></li>
+                <li><a class="dropdown-item" href="https://byjus.com/jee/jee-main-semiconductors-previous-year-questions-with-solutions/" target="_blank">Previous Year Questions</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5rNtTnGCeR-qMiWsnY3Z9c0" target="_blank">Video Lectures-I</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/playlist?list=PLYVDsiuOZP5reV1N7Ezy_E8Fv3HXkcCCQ" target="_blank">Video Lectures-II</a></li>
+            </ul>
+        </div>
+
+
+        <section id="material">
+
+            <h2>Preparation Resources</h2>
+
+            <a class="btn btn-primary" href="https://www.jagranjosh.com/articles/most-important-physics-solved-questions-for-jee-main-1545111699-1" target="_blank">Practice Problems</a>
+            <a class="btn btn-primary" href="https://byjus.com/jee/jee-main-physics-chapter-wise-question-papers/" target="_blank">Tests</a>
+            <a class="btn btn-primary" href="http://www.mvc.physicsgalaxy.com/tips/1/forget" target="_blank">Tips and Strategies</a>
+
+        </section>
+
+
+        <section id="notes">
+            <h2>Notes</h2>
+            <p>Explore comprehensive study notes that provide in-depth insights into JEE Physics. Strengthen your
+                foundation with organized and detailed study materials.</p>
+            <!-- Include links to study notes here -->
+        </section>
+
+        <section id="practice-tests">
+            <h2>Practice Tests</h2>
+            <p>Sharpen your skills with a variety of practice tests tailored for JEE Physics. Test your knowledge,
+                track your progress, and gain confidence for the actual exams.</p>
+            <!-- Include links to practice tests here -->
+        </section>
+
+    </div><!-- /.container -->
+{% endblock body %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block body  %}
+<body class="text-center">
+<div class="container">
+    <h1 class="h3 mb-3 font-weight-normal">
+        Counselling Form
+    </h1>
+    <form method="POST" class="form-register">
+        {{form.hidden_tag()}}
+
+        {{form.name.label()}}
+        {{form.name(class="form-control",placeholder="Student's Name")}}
+
+        {{form.email_address.label()}}
+        {{form.email_address(class="form-control my-1",placeholder="Email:")}}
+
+        {{form.problem.label()}}
+        {{form.problem(class="form-control my-1",placeholder="Problem Faced:")}}
+
+        {{form.submit(class="btn btn-outline-dark btn-lg my-3")}}
+    </form>
+</div>
+</body>
+{% endblock body %}

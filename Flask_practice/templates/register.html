@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block body  %}
+<body class="text-center">
+<div class="container">
+    <h1 class="h3 mb-3 font-weight-normal">
+        Register Form
+    </h1>
+    <form method="POST" class="form-register">
+        {{form.hidden_tag()}}
+
+        {{form.username.label()}}
+        {{form.username(class="form-control",placeholder="Username")}}
+
+        {{form.email_address.label()}}
+        {{form.email_address(class="form-control my-1",placeholder="Email:")}}
+
+        {{form.password1.label()}}
+        {{form.password1(class="form-control my-1",placeholder="Enter Password:")}}
+
+        {{form.password2.label()}}
+        {{form.password2(class="form-control my-1",placeholder="Confirm Password :")}}
+
+        {{form.submit(class="btn btn-outline-dark btn-lg my-3")}}
+    </form>
+</div>
+<p>Already have an account?<a href="{{url_for('login_page')}}">Login</a></p>
+</body>
+{% endblock body %}

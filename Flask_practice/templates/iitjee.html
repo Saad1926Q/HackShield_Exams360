@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<style>
+    .starter-template {
+        padding: 3rem 1.5rem;
+        text-align: center;
+    }
+     a {
+        color: inherit;  /* Use the color of the parent element */
+        text-decoration: none;  /* Remove underline */
+    }
+
+    a:hover {
+        color: inherit;  /* Change color on hover if needed */
+    }
+</style>
+{% endblock head %}
+
+{% block body %}
+<!-- Page Content -->
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Welcome to JEE Preparation</h1>
+        <p class="lead">Embark on your journey to success in the Joint Entrance Examination (JEE).</p>
+    </div>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="row">
+
+            <div class="col-md-4">
+                <a href="{{url_for('jee_maths_page')}}">
+                    <div class="card">
+                        <img src="{{ url_for('static', filename='maths.jpeg') }}" class="card-img-top" alt="Course 1 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Mathematics Mastery</h5>
+                            <p class="card-text">Comprehensive study materials and practice tests for Mathematics.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="{{url_for('jee_physics_page')}}">
+                    <div class="card">
+                        <img src="{{ url_for('static', filename='physics.jpeg') }}" class="card-img-top" alt="Course 2 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Physics Excellence</h5>
+                            <p class="card-text">Prepare for the Physics section with our detailed courses.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="{{url_for('jee_chemistry_page')}}">
+                    <div class="card">
+                        <img src="{{ url_for('static', filename='chemistry.jpeg') }}" class="card-img-top" alt="Course 3 Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Chemistry Proficiency</h5>
+                            <p class="card-text">Get ready for the Chemistry section of the JEE exam.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+</div><!-- /.container -->
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+{% endblock body %}
